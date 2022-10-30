@@ -1,4 +1,5 @@
 import React from "react";
+import aniketProfilepic from "../Images/aniketProfilepic.jpg";
 
 const PostCard = () => {
   return (
@@ -6,13 +7,7 @@ const PostCard = () => {
       <div className="post_box">
         <div className="input">
           <div className="input_text">
-            <img
-              src={
-                "https://media-exp1.licdn.com/dms/image/D4D35AQEAFvn-ixqNQQ/profile-framedphoto-shrink_400_400/0/1663218598790?e=1666886400&v=beta&t=ZD8lauvYwUg6F-yTBrOKDifz4tP6WeQstyKlr3DY3ME"
-              }
-              alt="no image"
-              className="profile"
-            />
+            <img src={aniketProfilepic} alt="no image" className="profile" />
             <input type="text" value="start a post" className="post_input" />
           </div>
           <div className="input_blocks">

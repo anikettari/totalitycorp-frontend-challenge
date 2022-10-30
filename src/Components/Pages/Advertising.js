@@ -1,4 +1,5 @@
 import React from "react";
+import aniketProfilepic from "../Images/aniketProfilepic.jpg";
 
 const Advertising = () => {
   return (
@@ -16,12 +17,7 @@ const Advertising = () => {
 
         <div className="advertising_card">
           <div className="single_adv_card">
-            <img
-              src={
-                "https://media-exp1.licdn.com/dms/image/D4D35AQEAFvn-ixqNQQ/profile-framedphoto-shrink_400_400/0/1663218598790?e=1666929600&v=beta&t=51HQb51P_vLCVlVR5WM_AEPfAtXOcw1DCFc2ah2AKoA"
-              }
-              className="adv_image"
-            ></img>
+            <img src={aniketProfilepic} className="adv_image"></img>
           </div>
           <div className="single_adv_card">
             <img

@@ -1,5 +1,6 @@
 import React from "react";
 import downloadImage from "../Images/download.png";
+import aniketProfilepic from "../Images/aniketProfilepic.jpg";
 
 const Navbar = () => {
   return (
@@ -69,9 +70,7 @@ const Navbar = () => {
           <div className="nav_link">
             <div className="nav_icon">
               <img
-                src={
-                  "https://media-exp1.licdn.com/dms/image/D4D35AQEAFvn-ixqNQQ/profile-framedphoto-shrink_400_400/0/1663218598790?e=1666886400&v=beta&t=ZD8lauvYwUg6F-yTBrOKDifz4tP6WeQstyKlr3DY3ME"
-                }
+                src={aniketProfilepic}
                 alt="non"
                 style={{
                   height: "30px",
@@ -89,9 +88,7 @@ const Navbar = () => {
                 <div className="dropdown-content">
                   <div className="dropdown_profile">
                     <img
-                      src={
-                        "https://media-exp1.licdn.com/dms/image/D4D35AQEAFvn-ixqNQQ/profile-framedphoto-shrink_400_400/0/1663218598790?e=1666886400&v=beta&t=ZD8lauvYwUg6F-yTBrOKDifz4tP6WeQstyKlr3DY3ME"
-                      }
+                      src={aniketProfilepic}
                       style={{
                         height: "50px",
                         objectFit: "contain",
